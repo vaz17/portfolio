@@ -22,7 +22,7 @@ export default function ContactSection() {
 					transition={{ duration: 0.6, delay: 0.2 }}
 					className="text-gray-300 mb-6"
 				>
-					I'm a Computer Science student at MSU actively seeking a Summer 2025 internship in software engineering or development.
+					I am a Computer Science student at MSU actively seeking a Summer 2025 internship in software engineering or development.
 
           Feel free to reach out via email or check out my resume below.
 				</motion.p>
