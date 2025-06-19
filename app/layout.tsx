@@ -13,39 +13,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Matthew Vazquez] - Software Developer',
+	title: 'Matthew Vazquez – Software Developer',
 	description:
-		'Welcome to my portfolio! I am a passionate software developer with a focus on clean, minimal, and effective solutions. I believe in the power of simplicity and thoughtful design to create impactful digital experiences.',
+		'Portfolio of Matthew Vazquez, a Computer Science student at MSU building scheduling tools, LAN games, and animation engines using Python, C++, and modern web technologies.',
 	keywords: [
+		'Matthew Vazquez',
 		'Software Developer',
-		'Clean Code',
-		'Minimal Design',
-		'Modern Development',
-		'Web Development',
-		'User Experience',
-		'Design Systems',
-		'JavaScript',
-		'TypeScript',
-		'React',
+		'Computer Science Student',
+		'Portfolio',
 		'Next.js',
-		'Performance',
-		'Accessibility',
-		'Minimalist Portfolio',
-		'[Matthew Vazquez]',
+		'Python',
+		'C++',
+		'PyQt5',
+		'Pygame',
+		'FastAPI',
+		'React',
+		'LAN Games',
+		'MSU',
+		'Developer Portfolio',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Matthew Vazquez' }],
+	creator: 'Matthew Vazquez',
 	openGraph: {
-		title: '[Your Name] - Software Developer Portfolio',
-		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
-		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		title: 'Matthew Vazquez – Software Developer Portfolio',
+		description:
+			'Explore the portfolio of Matthew Vazquez, a CS student at MSU focused on building practical tools and engaging applications with clean design and strong fundamentals.',
+		url: 'https://matthewvazquez.dev',
+		siteName: 'Matthew Vazquez Portfolio',
 		images: [
 			{
-				url: '/og-image.jpg',
+				url: '/og-image.jpg', // Replace this with your actual image or update the file
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Modern Minimal Portfolio',
+				alt: 'Matthew Vazquez – Software Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -53,9 +53,10 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Software Developer',
-		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
-		creator: '@yourusername',
+		title: 'Matthew Vazquez – Software Developer',
+		description:
+			'Portfolio of Matthew Vazquez, CS student at MSU creating software tools, games, and interfaces with Python, C++, and modern frameworks.',
+		creator: '@', // You can leave this blank or add your Twitter handle later
 		images: ['/og-image.jpg'],
 	},
 	robots: {
@@ -70,6 +71,7 @@ export const metadata: Metadata = {
 		},
 	},
 };
+
 
 export default function RootLayout({
 	children,
