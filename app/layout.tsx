@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://matthewvazquez.dev'),
 	title: 'Matthew Vazquez – Software Developer',
 	description:
 		'Portfolio of Matthew Vazquez, a Computer Science student at MSU building scheduling tools, LAN games, and animation engines using Python, C++, and modern web technologies.',
