@@ -31,7 +31,7 @@ export default function WordPongPage() {
       <div className="mb-10">
         <h2 className="text-2xl font-semibold mb-2">Gameplay</h2>
         <p className="text-gray-300">
-          Each player runs the game locally and connects through a local network. The server randomly generates word blocks that fall at increasing speed. Players must type the correct word to remove it from their screen. The game ends when a player lets too many blocks pile up. It's a fast-paced typing duel built for LAN parties.
+          Each player runs the game locally and connects through a local network. The server randomly generates word blocks that fall at increasing speed. Players must type the correct word to remove it from their screen. The game ends when a player lets too many blocks pile up. It is a fast-paced typing duel built for LAN parties.
         </p>
       </div>
 
