@@ -4,16 +4,16 @@ import Link from 'next/link';
 export default function SpartysBootsPage() {
   return (
     <div className="min-h-screen bg-black text-white px-6 py-12 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-4">Sparty's Boots</h1>
+      <h1 className="text-4xl font-bold mb-4">Sparty&apos;s Boots</h1>
       <p className="text-lg text-gray-300 mb-8">
-        A logic-based conveyor belt puzzle game built in C++ with wxWidgets. Players place logic gates to control Sparty's movement and complete levels.
+        A logic-based conveyor belt puzzle game built in C++ with wxWidgets. Players place logic gates to control Sparty&apos;s movement and complete levels.
       </p>
 
       {/* Project Screenshot */}
       <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-10">
         <Image
           src="/boots.png"
-          alt="Sparty's Boots Screenshot"
+          alt="Spartys Boots Screenshot"
           fill
           className="object-cover"
         />
@@ -23,7 +23,7 @@ export default function SpartysBootsPage() {
       <div className="mb-10">
         <h2 className="text-2xl font-semibold mb-2">Overview</h2>
         <p className="text-gray-300">
-          Sparty's Boots is a puzzle game where players solve logic challenges using digital components like AND, OR, and NOT gates. The game features a conveyor belt system where players must guide Sparty to safety by wiring together the correct gate combinations. It was developed in C++ using the wxWidgets GUI framework and focuses on logical thinking and timing.
+          Sparty&apos;s Boots is a puzzle game where players solve logic challenges using digital components like AND, OR, and NOT gates. The game features a conveyor belt system where players must guide Sparty to safety by wiring together the correct gate combinations. It was developed in C++ using the wxWidgets GUI framework and focuses on logical thinking and timing.
         </p>
       </div>
 
