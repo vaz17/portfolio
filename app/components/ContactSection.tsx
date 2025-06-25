@@ -48,7 +48,7 @@ export default function ContactSection() {
 					className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
 				>
 					<a
-						href="mailto:vazquez.e.matthew@gmail.com"
+						href="mailto:mvazy17@gmail.com"
 						className="group flex items-center gap-2 px-6 py-3 bg-white/5 rounded-full hover:bg-white/10 transition-colors w-full sm:w-auto"
 					>
 						<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
